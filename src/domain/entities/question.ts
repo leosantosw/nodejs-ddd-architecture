@@ -8,6 +8,8 @@ interface QuestionProps {
     content: string
     studentId: UniqueEntityID 
     authorId: UniqueEntityID
+    createdAt: Date
+    updatedAt?: Date
 }
 
 export class Question extends Entity<QuestionProps> {}
