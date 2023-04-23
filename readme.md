@@ -11,9 +11,11 @@ This repository contains a sample implementation of Domain-driven Design (DDD) a
 ├── readme.md
 ├── src
 │   ├── core
-│   │   └── entities
-│   │       ├── entity.ts
-│   │       └── unique-entity-id.ts
+│   │   ├── entities
+│   │   │   ├── entity.ts
+│   │   │   └── unique-entity-id.ts
+│   │   └── types
+│   │       └── optional.ts
 │   └── domain
 │       ├── entities
 │       │   ├── answer.ts
@@ -28,5 +30,6 @@ This repository contains a sample implementation of Domain-driven Design (DDD) a
 │       └── use-cases
 │           ├── answer-question.spec.ts
 │           └── answer-question.ts
-└── tsconfig.json
+├── tsconfig.json
+└── vite.config.ts
 ```
