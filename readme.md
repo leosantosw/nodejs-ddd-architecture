@@ -10,12 +10,21 @@ This repository contains a sample implementation of Domain-driven Design (DDD) a
 ├── package-lock.json
 ├── readme.md
 ├── src
+│   ├── core
+│   │   └── entities
+│   │       ├── entity.ts
+│   │       └── unique-entity-id.ts
 │   └── domain
 │       ├── entities
 │       │   ├── answer.ts
 │       │   ├── instructor.ts
 │       │   ├── question.ts
-│       │   └── student.ts
+│       │   ├── student.ts
+│       │   └── value-objects
+│       │       ├── slug.spec.ts
+│       │       └── slug.ts
+│       ├── repositories
+│       │   └── answer-repository.ts
 │       └── use-cases
 │           ├── answer-question.spec.ts
 │           └── answer-question.ts
