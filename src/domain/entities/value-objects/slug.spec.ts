@@ -1,5 +1,4 @@
 import { Slug } from './slug';
-import { expect, test } from 'vitest';
 
 test('should be able to create a slug from text', () => {
   const inputText = "Hello, this is an example of text to create a slug."
